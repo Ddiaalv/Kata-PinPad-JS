@@ -21,6 +21,11 @@ export const MyApp = ({ Component, pageProps }) => (
         * {
           box-sizing: border-box;
         }
+        main {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
       `}
     />
     <Component {...pageProps} />

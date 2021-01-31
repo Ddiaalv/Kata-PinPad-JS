@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Title } from './_app.styles'
+import { Pad } from '../src/components/Pad/Pad'
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
       </Head>
       <main>
         <Title>PINPAD</Title>
+        <Pad />
       </main>
     </div>
   )
