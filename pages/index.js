@@ -5,14 +5,12 @@ export const Home = () => {
   return (
     <div>
       <Head>
-        <title>Next boilerplate</title>
-        <meta name="description" content="Next boilerplate." />
+        <title>Kata - PinPad | DDIAALV</title>
+        <meta name="description" content="Kata - PinPad | DDIAALV" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Title>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </Title>
+        <Title>PINPAD</Title>
       </main>
     </div>
   )
